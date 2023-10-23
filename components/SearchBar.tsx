@@ -21,7 +21,7 @@ function SearchButton ({otherClasses}: {otherClasses: string}){
 	)
 }
 
-function SearchBar({setManufacturer, setModel}) {
+function SearchBar({setManufacturer, setModel}:{setManufacturer:any, setModel:any}) {
 	const [searchManufacturer, setSearchManufacturer] = useState("");
 	const [searchModel, setSearchModel] = useState("");
 	const router = useRouter();
